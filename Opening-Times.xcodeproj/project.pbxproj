@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9C545DA1528DB41001EF946 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C545D91528DB41001EF946 /* UIKit.framework */; };
+		C9C545DC1528DB41001EF946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C545DB1528DB41001EF946 /* Foundation.framework */; };
+		C9C545DE1528DB41001EF946 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C545DD1528DB41001EF946 /* CoreGraphics.framework */; };
+		C9C545E41528DB41001EF946 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9C545E21528DB41001EF946 /* InfoPlist.strings */; };
+		C9C545E61528DB41001EF946 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C545E51528DB41001EF946 /* main.m */; };
+		C9C545EA1528DB41001EF946 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C545E91528DB41001EF946 /* AppDelegate.m */; };
+		C9C545ED1528DB41001EF946 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C545EB1528DB41001EF946 /* MainStoryboard_iPhone.storyboard */; };
+		C9C545F01528DB41001EF946 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9C545EE1528DB41001EF946 /* MainStoryboard_iPad.storyboard */; };
+		C9C545F31528DB41001EF946 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C545F21528DB41001EF946 /* FirstViewController.m */; };
+		C9C545F51528DB41001EF946 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C545F41528DB41001EF946 /* first.png */; };
+		C9C545F71528DB41001EF946 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C545F61528DB41001EF946 /* first@2x.png */; };
+		C9C545FA1528DB41001EF946 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C545F91528DB41001EF946 /* SecondViewController.m */; };
+		C9C545FC1528DB41001EF946 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C545FB1528DB41001EF946 /* second.png */; };
+		C9C545FE1528DB41001EF946 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9C545FD1528DB41001EF946 /* second@2x.png */; };
+		C9C546061528DB41001EF946 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C546051528DB41001EF946 /* SenTestingKit.framework */; };
+		C9C546071528DB41001EF946 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C545D91528DB41001EF946 /* UIKit.framework */; };
+		C9C546081528DB41001EF946 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9C545DB1528DB41001EF946 /* Foundation.framework */; };
+		C9C546101528DB41001EF946 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9C5460E1528DB41001EF946 /* InfoPlist.strings */; };
+		C9C546131528DB41001EF946 /* Opening_TimesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C9C546121528DB41001EF946 /* Opening_TimesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9C546091528DB41001EF946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9C545CC1528DB40001EF946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9C545D41528DB40001EF946;
+			remoteInfo = "Opening-Times";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9C545D51528DB41001EF946 /* Opening-Times.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Opening-Times.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C545D91528DB41001EF946 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C9C545DB1528DB41001EF946 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9C545DD1528DB41001EF946 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C9C545E11528DB41001EF946 /* Opening-Times-Info.plist */ = {isa = PBXFileReference; path = "Opening-Times-Info.plist"; sourceTree = "<group>"; };
+		C9C545E31528DB41001EF946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9C545E51528DB41001EF946 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9C545E71528DB41001EF946 /* Opening-Times-Prefix.pch */ = {isa = PBXFileReference; path = "Opening-Times-Prefix.pch"; sourceTree = "<group>"; };
+		C9C545E81528DB41001EF946 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		C9C545E91528DB41001EF946 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C9C545EC1528DB41001EF946 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C9C545EF1528DB41001EF946 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C9C545F11528DB41001EF946 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		C9C545F21528DB41001EF946 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C9C545F41528DB41001EF946 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		C9C545F61528DB41001EF946 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		C9C545F81528DB41001EF946 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		C9C545F91528DB41001EF946 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C9C545FB1528DB41001EF946 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		C9C545FD1528DB41001EF946 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		C9C546041528DB41001EF946 /* Opening-TimesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Opening-TimesTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9C546051528DB41001EF946 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9C5460D1528DB41001EF946 /* Opening-TimesTests-Info.plist */ = {isa = PBXFileReference; path = "Opening-TimesTests-Info.plist"; sourceTree = "<group>"; };
+		C9C5460F1528DB41001EF946 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9C546111528DB41001EF946 /* Opening_TimesTests.h */ = {isa = PBXFileReference; path = Opening_TimesTests.h; sourceTree = "<group>"; };
+		C9C546121528DB41001EF946 /* Opening_TimesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Opening_TimesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9C545D21528DB40001EF946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C545DA1528DB41001EF946 /* UIKit.framework in Frameworks */,
+				C9C545DC1528DB41001EF946 /* Foundation.framework in Frameworks */,
+				C9C545DE1528DB41001EF946 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C546001528DB41001EF946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C546061528DB41001EF946 /* SenTestingKit.framework in Frameworks */,
+				C9C546071528DB41001EF946 /* UIKit.framework in Frameworks */,
+				C9C546081528DB41001EF946 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9C545CA1528DB40001EF946 = {
+			isa = PBXGroup;
+			children = (
+				C9C545DF1528DB41001EF946 /* Opening-Times */,
+				C9C5460B1528DB41001EF946 /* Opening-TimesTests */,
+				C9C545D81528DB41001EF946 /* Frameworks */,
+				C9C545D61528DB41001EF946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9C545D61528DB41001EF946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9C545D51528DB41001EF946 /* Opening-Times.app */,
+				C9C546041528DB41001EF946 /* Opening-TimesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9C545D81528DB41001EF946 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9C545D91528DB41001EF946 /* UIKit.framework */,
+				C9C545DB1528DB41001EF946 /* Foundation.framework */,
+				C9C545DD1528DB41001EF946 /* CoreGraphics.framework */,
+				C9C546051528DB41001EF946 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9C545DF1528DB41001EF946 /* Opening-Times */ = {
+			isa = PBXGroup;
+			children = (
+				C9C545E81528DB41001EF946 /* AppDelegate.h */,
+				C9C545E91528DB41001EF946 /* AppDelegate.m */,
+				C9C545EB1528DB41001EF946 /* MainStoryboard_iPhone.storyboard */,
+				C9C545EE1528DB41001EF946 /* MainStoryboard_iPad.storyboard */,
+				C9C545F11528DB41001EF946 /* FirstViewController.h */,
+				C9C545F21528DB41001EF946 /* FirstViewController.m */,
+				C9C545F41528DB41001EF946 /* first.png */,
+				C9C545F61528DB41001EF946 /* first@2x.png */,
+				C9C545F81528DB41001EF946 /* SecondViewController.h */,
+				C9C545F91528DB41001EF946 /* SecondViewController.m */,
+				C9C545FB1528DB41001EF946 /* second.png */,
+				C9C545FD1528DB41001EF946 /* second@2x.png */,
+				C9C545E01528DB41001EF946 /* Supporting Files */,
+			);
+			path = "Opening-Times";
+			sourceTree = "<group>";
+		};
+		C9C545E01528DB41001EF946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C545E11528DB41001EF946 /* Opening-Times-Info.plist */,
+				C9C545E21528DB41001EF946 /* InfoPlist.strings */,
+				C9C545E51528DB41001EF946 /* main.m */,
+				C9C545E71528DB41001EF946 /* Opening-Times-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C9C5460B1528DB41001EF946 /* Opening-TimesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9C546111528DB41001EF946 /* Opening_TimesTests.h */,
+				C9C546121528DB41001EF946 /* Opening_TimesTests.m */,
+				C9C5460C1528DB41001EF946 /* Supporting Files */,
+			);
+			path = "Opening-TimesTests";
+			sourceTree = "<group>";
+		};
+		C9C5460C1528DB41001EF946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9C5460D1528DB41001EF946 /* Opening-TimesTests-Info.plist */,
+				C9C5460E1528DB41001EF946 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9C545D41528DB40001EF946 /* Opening-Times */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C546161528DB41001EF946 /* Build configuration list for PBXNativeTarget "Opening-Times" */;
+			buildPhases = (
+				C9C545D11528DB40001EF946 /* Sources */,
+				C9C545D21528DB40001EF946 /* Frameworks */,
+				C9C545D31528DB40001EF946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Opening-Times";
+			productName = "Opening-Times";
+			productReference = C9C545D51528DB41001EF946 /* Opening-Times.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C9C546031528DB41001EF946 /* Opening-TimesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9C546191528DB41001EF946 /* Build configuration list for PBXNativeTarget "Opening-TimesTests" */;
+			buildPhases = (
+				C9C545FF1528DB41001EF946 /* Sources */,
+				C9C546001528DB41001EF946 /* Frameworks */,
+				C9C546011528DB41001EF946 /* Resources */,
+				C9C546021528DB41001EF946 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9C5460A1528DB41001EF946 /* PBXTargetDependency */,
+			);
+			name = "Opening-TimesTests";
+			productName = "Opening-TimesTests";
+			productReference = C9C546041528DB41001EF946 /* Opening-TimesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9C545CC1528DB40001EF946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C9C545CF1528DB40001EF946 /* Build configuration list for PBXProject "Opening-Times" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9C545CA1528DB40001EF946;
+			productRefGroup = C9C545D61528DB41001EF946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9C545D41528DB40001EF946 /* Opening-Times */,
+				C9C546031528DB41001EF946 /* Opening-TimesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9C545D31528DB40001EF946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C545E41528DB41001EF946 /* InfoPlist.strings in Resources */,
+				C9C545ED1528DB41001EF946 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C9C545F01528DB41001EF946 /* MainStoryboard_iPad.storyboard in Resources */,
+				C9C545F51528DB41001EF946 /* first.png in Resources */,
+				C9C545F71528DB41001EF946 /* first@2x.png in Resources */,
+				C9C545FC1528DB41001EF946 /* second.png in Resources */,
+				C9C545FE1528DB41001EF946 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C546011528DB41001EF946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C546101528DB41001EF946 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9C546021528DB41001EF946 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9C545D11528DB40001EF946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C545E61528DB41001EF946 /* main.m in Sources */,
+				C9C545EA1528DB41001EF946 /* AppDelegate.m in Sources */,
+				C9C545F31528DB41001EF946 /* FirstViewController.m in Sources */,
+				C9C545FA1528DB41001EF946 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C545FF1528DB41001EF946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9C546131528DB41001EF946 /* Opening_TimesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C9C5460A1528DB41001EF946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9C545D41528DB40001EF946 /* Opening-Times */;
+			targetProxy = C9C546091528DB41001EF946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C9C545E21528DB41001EF946 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C545E31528DB41001EF946 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9C545EB1528DB41001EF946 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C545EC1528DB41001EF946 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C9C545EE1528DB41001EF946 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C545EF1528DB41001EF946 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C9C5460E1528DB41001EF946 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9C5460F1528DB41001EF946 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9C546141528DB41001EF946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C9C546151528DB41001EF946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9C546171528DB41001EF946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opening-Times/Opening-Times-Prefix.pch";
+				INFOPLIST_FILE = "Opening-Times/Opening-Times-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9C546181528DB41001EF946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opening-Times/Opening-Times-Prefix.pch";
+				INFOPLIST_FILE = "Opening-Times/Opening-Times-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C9C5461A1528DB41001EF946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Opening-Times.app/Opening-Times";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opening-Times/Opening-Times-Prefix.pch";
+				INFOPLIST_FILE = "Opening-TimesTests/Opening-TimesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C9C5461B1528DB41001EF946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Opening-Times.app/Opening-Times";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Opening-Times/Opening-Times-Prefix.pch";
+				INFOPLIST_FILE = "Opening-TimesTests/Opening-TimesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9C545CF1528DB40001EF946 /* Build configuration list for PBXProject "Opening-Times" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C546141528DB41001EF946 /* Debug */,
+				C9C546151528DB41001EF946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9C546161528DB41001EF946 /* Build configuration list for PBXNativeTarget "Opening-Times" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C546171528DB41001EF946 /* Debug */,
+				C9C546181528DB41001EF946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C9C546191528DB41001EF946 /* Build configuration list for PBXNativeTarget "Opening-TimesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C5461A1528DB41001EF946 /* Debug */,
+				C9C5461B1528DB41001EF946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9C545CC1528DB40001EF946 /* Project object */;
+}
